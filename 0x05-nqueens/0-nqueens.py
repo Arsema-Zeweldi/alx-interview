@@ -38,6 +38,7 @@ def solveNQueens(board, row, N):
 def chessBoard(size):
     return [0 * size for i in range(size)]
 
+
 if __name__ == "__main__":
     if len(sys.argv) != 2:
         print("Usage: nqueens N")
@@ -54,4 +55,4 @@ if __name__ == "__main__":
 
     board = chessBoard(int(N))
     row = 0
-    solveNQueens(board, row, int(N)) 
+    solveNQueens(board, row, int(N))
